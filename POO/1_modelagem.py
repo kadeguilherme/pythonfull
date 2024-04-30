@@ -17,6 +17,10 @@ class Pessoas:
     def logar_sistema(self):
         print(f'{self.nome} está logando no sistema')
         print(self.retorna_nome())
+    #metodo de classe
+    @classmethod #decocator
+    def andar(cls):
+        print("Estou andando")
 
 #Criando instancia
 p1 = Pessoas('Caio', 21, '123-456-789')
